@@ -1,11 +1,2 @@
-#include <stdio.h>
-/**
-*
-*
-*
-*/
-int main(Void)
-{
- put("Programming is like building a multilingual puzzle,\n");
-return (0);
-}
+#!/bin/bash
+gcc -S $CFILE
