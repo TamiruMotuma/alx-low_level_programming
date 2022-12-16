@@ -1,14 +1,18 @@
-#include "main.h"
+#include "main.h"
 
 /**
- * print_alphabet - print the alphabet in lowercase
+ * print_alphabitic_10x - print alpha 10 time
  */
-void print_alphabet_x10(void);
+void print_alphabet_x10(void)
 {
-	char la;
+	int ten;
+	char la;
+	
+	for (la = 0; ten <= 9; ten++)
+	{
+		for (la = 'a'; la <= 'z'; la++)
+			_putchar(la); 
 
-	for (la = 'a'; la <= 'z'; la++)
-		_putchar(la);
-
-	_putchar('\n');
+		_putchat('\n'); 
+	}
 }
